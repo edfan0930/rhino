@@ -28,12 +28,6 @@ func (m *Method) AddQueryParam(key, value string) {
 	m.Query.Add(key, value)
 }
 
-//AddHeader
-func (m *Method) AddHeader(key, value string) {
-
-	m.Header.Add(key, value)
-}
-
 //Get
 func (m *Method) Get() ([]byte, int, error) {
 

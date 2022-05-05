@@ -29,7 +29,7 @@ func DailyMessage(c *gin.Context) {
 	if text == "Itsthisforthat" {
 		if err := daily.GetSentence(request.ItsthisforthatMethod); err != nil {
 
-			fmt.Println("get Metaphorpsum error : ", err.Error())
+			fmt.Println("get Itsthisforthat error : ", err.Error())
 			return
 		}
 
